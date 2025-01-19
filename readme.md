@@ -1,5 +1,5 @@
 # AdWise
-AdVise AI is an intelligent ad research platform that transforms your advertising vision into data-backed strategies. By analyzing cross-platform performance data and user behavior, we help you craft ads that resonate with your target audience and align with your brand identity.
+Adwise AI is an intelligent ad research platform that transforms your advertising vision into data-backed strategies. By analyzing cross-platform performance data and user behavior, we help you craft ads that resonate with your target audience and align with your brand identity.
 
 
 # Check out our project & demo video here:
@@ -8,25 +8,25 @@ yy - demo video
 
 ## Features
 
-* **Smart Input Analysis**
+* *Smart Input Analysis*
     - Brand Guidelines Integration
     - Ad Style Preference Selection (Professional, Fun, Minimalist, etc.)
     - Target Platform Optimization
     - Campaign Objective Mapping
 
-* **Cross-Platform Intelligence**
+* *Cross-Platform Intelligence*
     - Platform-specific Performance Metrics
     - Audience Behavior Analysis
     - Content Format Recommendations
     - Engagement Pattern Recognition
 
-* **AI-Powered Insights**
+* *AI-Powered Insights*
     - Pain Point Identification
     - Emotional Trigger Analysis
     - Interactive Hook Word Cloud
     - High-Converting CTA Recommendations
 
-* **Performance Analytics**
+* *Performance Analytics*
     - Platform Success Metrics
     - A/B Testing Suggestions
     - Engagement Rate Benchmarking
@@ -40,19 +40,19 @@ yy - demo video
 
 ## How It Works
 
-1. **Input Collection**
+1. *Input Collection*
    - Define your product/service category
    - Select desired ad style
    - Input brand guidelines
    - Choose target platforms
 
-2. **Analysis & Processing**
+2. *Analysis & Processing*
    - Analyze successful ads in your category
    - Process user engagement patterns
    - Generate performance metrics
    - Identify winning elements
 
-3. **Insight Generation**
+3. *Insight Generation*
    - Create interactive hook word clouds
    - Map platform-specific performance data
    - Generate customized recommendations
@@ -69,36 +69,36 @@ yy - demo video
 ## Setup Instructions
 
 ### 1. Clone the repository:
-```bash
+bash
 git clone https://github.com/yourusername/social-media-analytics.git
 cd social-media-analytics
-```
+
 
 ### 2. Create and activate a virtual environment:
-```bash
+bash
 python -m venv venv
 source venv/bin/activate  # On Windows, use: venv\Scripts\activate
-```
+
 
 ### 3. Install dependencies:
-```bash
+bash
 pip install -r requirements.txt
-```
+
 
 ### 4. Set up environment variables:
-```bash
+bash
 cp .env.example .env
 # Edit .env file with your API keys and configuration
-```
+
 
 ## Usage
 
 ### 1. Start the Streamlit application:
-```bash
+bash
 streamlit run app.py
-```
 
-### 2. Navigate to `http://localhost:8501` in your web browser
+
+### 2. Navigate to http://localhost:8501 in your web browser
 
 ### 3. Connect your social media accounts through the settings panel
 
@@ -106,12 +106,12 @@ streamlit run app.py
 
 ## Configuration
 
-Configure your application by setting the following environment variables in `.env`:
+Configure your application by setting the following environment variables in .env:
 
-```
+
 DATASTAX_API_KEY=your_datastax_api_key
 LANGFLOW_API_KEY=your_langflow_api_key
-```
+
 
 ## Project Structure
 - main.py: Main application file containing the Streamlit app logic.
@@ -122,4 +122,3 @@ LANGFLOW_API_KEY=your_langflow_api_key
 - DataStax team for their excellent database solution
 - LangFlow community for AI analytics capabilities
 - Streamlit team for the amazing web framework
-# supermind
