@@ -22,7 +22,10 @@ def load_lottie_url(url: str):
         return None
 
 # API Constants
-
+BASE_API_URL = "https://api.langflow.astra.datastax.com"
+LANGFLOW_ID = "a251ca29-c516-4b2d-b0a8-dc39c2749687"
+FLOW_ID = "6d800b6c-d418-433c-8668-0d842a8217f8"
+APPLICATION_TOKEN = "AstraCS:afxqTEzGrosUfUtQKUZdsnWQ:450b73b66683182926f416cea52b5635e7dc3c9de729115f3c4adb50c704e083"
 TWEAKS = {
     "GoogleSearchAPI-weDm4": {},
     "ChatInput-wsQHH": {},
